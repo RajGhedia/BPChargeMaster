@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+    <g fill="none" fill-rule="nonzero">
+        <circle cx="40.4" cy="40.4" r="40.4" fill="#f0eff1"/>
+        <circle cx="40.4" cy="40.4" r="31.8" fill="#26a154"/>
+        <path fill="#005b2d" d="M 22.1 55.7 l 16.6 16.6 s 14.6 0.9 24.5 -9.6 c 7.7 -8.1 8.2 -15.6 8.2 -15.6 L 50.3 25.9 L 22.1 55.7 z"/>
+        <path fill="#ec7a2f" d="M 34 22.5 h 2.3 v 4.5 h -2.3 z"/>
+        <path fill="#abc631" d="M 31.6 27.1 h 17.5 v 5.3 H 31.6 z"/>
+        <path fill="#79b12d" d="M 40.4 27.1 h 8.8 v 5.3 h -8.8 z"/>
+        <path fill="#ede23f" d="M 50.3 31.3 v -5.4 H 30.5 v 5.4 a 7.3 7.3 0 0 0 -6.1 7.2 v 8.7 h 32.1 v -8.7 a 7.3 7.3 0 0 0 -6.1 -7.2 z m -17.5 -3.1 h 15.3 v 3 H 32.8 v -3 z"/>
+        <path fill="#f7c234" d="M 56.4 38.5 a 7.3 7.3 0 0 0 -6.1 -7.2 v -5.4 H 40.4 v 2.3 h 7.6 v 3 h -7.6 v 15.9 h 16 v -8.7 z"/>
+        <path fill="#f7c234" d="M 22.1 44.9 h 36.6 v 10.7 H 22.1 z"/>
+        <path fill="#abc631" d="M 31.6 18 h 7.1 v 4.5 H 31.6 z"/>
+        <path fill="#f7c234" d="M 39.9 23.7 h -9.4 V 16.9 h 9.4 v 6.8 z M 32.8 21.4 h 4.8 v -2.3 h -4.8 V 21.4 z"/>
+        <path fill="#f29d30" d="M 29.8 40.4 h 3 v 2.3 h -3 z M 35.9 40.4 h 3 v 2.3 h -3 z"/>
+        <path fill="#ec7a2f" d="M 36.8 49.1 h 7.3 v 2.3 h -7.3 z"/>
+        <path fill="#f29d30" d="M 41.9 40.4 h 3 v 2.3 h -3 z M 47.9 40.4 h 3 v 2.3 h -3 z M 29.8 35.8 h 3 v 2.3 h -3 z M 35.9 35.8 h 3 v 2.3 h -3 z M 41.9 35.8 h 3 v 2.3 h -3 z M 47.9 35.8 h 3 v 2.3 h -3 z"/>
+        <path fill="#ec7a2f" d="M 41.9 40.4 h 3 v 2.3 h -3 z M 47.9 40.4 h 3 v 2.3 h -3 z M 41.9 35.8 h 3 v 2.3 h -3 z M 47.9 35.8 h 3 v 2.3 h -3 z"/>
+        <path fill="#f29d30" d="M 40.4 44.9 h 18.3 v 10.7 H 40.4 z"/>
+        <path fill="#e65d2e" d="M 40.4 49.1 h 3.7 v 2.3 h -3.7 z"/>
+    </g>
+</svg>

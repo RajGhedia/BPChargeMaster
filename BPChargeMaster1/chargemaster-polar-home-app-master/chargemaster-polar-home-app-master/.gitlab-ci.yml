@@ -1,0 +1,58 @@
+image: node:latest
+
+cache:
+  paths:
+  - node_modules/
+
+stages:
+  - build
+  - test
+  - version
+  - deploy
+  
+before_script:
+  - git remote set-url origin https://${GITLAB_USERNAME}:${GITLAB_ACCESS_TOKEN}@${GITLAB_REPO_URI}
+  - git config --global user.name "${GITLAB_USER_DISPLAY_NAME}"
+  - git config --global user.email "${GITLAB_USER_EMAIL}"
+
+build:
+  stage: build
+  tags:
+  - general-purpose
+  script:
+  - npm install
+  - npm run build
+  - npm run lint
+
+test:
+  stage: test
+  tags:
+  - general-purpose
+  script:
+  - npm run test:unit
+  artifacts:
+    paths:
+      - coverage/
+
+version:
+  stage: version
+  tags:
+  - general-purpose
+  script:
+  - git checkout -B ${CI_COMMIT_REF_NAME}
+  - npm run setVersion
+  - npm run setCordovaVersion
+  - npm run commitVersion
+  - git push --follow-tags origin ${CI_COMMIT_REF_NAME}
+
+  only:
+  - develop
+
+deploy:
+  stage: deploy
+  tags:
+  - general-purpose
+  script:
+  - echo "prepare cordova app and push to phonegap repo"
+  only:
+  - master

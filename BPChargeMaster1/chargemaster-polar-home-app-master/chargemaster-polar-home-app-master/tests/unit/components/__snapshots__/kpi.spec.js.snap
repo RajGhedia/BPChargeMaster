@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`kpi.vue renders correctly when given props 1`] = `
+<div
+  class="layout kpi mb-3"
+>
+  <div
+    class="flex xs8 offset-xs1 pt-3"
+  >
+    <div
+      class="headline ma-0 pa-0"
+    >
+      4.25
+    </div>
+     
+    <p
+      class="subheading pa-0 mb-2"
+    >
+      a label
+    </p>
+  </div>
+   
+  <div
+    class="flex xs4 pt-1 pr-3"
+  >
+    <div
+      class="v-responsive v-image icon"
+    >
+      <div
+        class="v-responsive__content"
+      />
+    </div>
+  </div>
+</div>
+`;

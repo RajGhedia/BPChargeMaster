@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheToolbar.vue renders correctly 1`] = `
+<nav
+  class="v-toolbar theme--light"
+  style="margin-top: 0px; padding-right: 0px; padding-left: 0px; transform: translateY(0px);"
+>
+  <div
+    class="v-toolbar__content"
+    style="height: 64px;"
+  >
+    <div
+      class="container pa-0 ma-0"
+    >
+      <div
+        class="layout"
+      >
+        <div
+          class="flex xs2 pt-4 text-xs-center"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon v-icon--link material-icons theme--light"
+          >
+            menu
+          </i>
+           
+          <!---->
+        </div>
+         
+        <div
+          class="flex title xs8 text-xs-center py-4"
+        >
+          A page title would go here
+        </div>
+         
+        <div
+          class="flex xs2 pt-4 text-xs-center"
+        >
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

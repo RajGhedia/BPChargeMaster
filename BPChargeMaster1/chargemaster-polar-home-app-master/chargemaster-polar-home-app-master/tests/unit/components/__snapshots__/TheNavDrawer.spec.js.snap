@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheNavDrawer.vue listens for the notify event 1`] = `
+<aside
+  class="v-navigation-drawer v-navigation-drawer--absolute v-navigation-drawer--open v-navigation-drawer--temporary theme--light"
+  style="height: 100%; margin-top: 0px; transform: translateX(0px); width: 300px;"
+>
+  <div
+    class="layout"
+  >
+    <div
+      class="flex xs7 offset-xs1 pt-3 pb-3"
+    >
+      <div
+        class="v-responsive v-image"
+      >
+        <div
+          class="v-responsive__content"
+        />
+      </div>
+    </div>
+  </div>
+   
+  <hr
+    class="v-divider theme--light"
+  />
+   
+  <div
+    class="v-list v-list--two-line theme--light"
+    role="list"
+  >
+    <div
+      role="listitem"
+    >
+      <a
+        class="v-list__tile v-list__tile--link theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            FAQ's
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <a
+            class="v-btn v-btn--icon v-btn--router theme--light"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+    <div
+      role="listitem"
+    >
+      <a
+        class="v-list__tile v-list__tile--link theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            Contact Us
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <a
+            class="v-btn v-btn--icon v-btn--router theme--light"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+    <div
+      role="listitem"
+    >
+      <div
+        class="v-list__tile theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            Polar Plus Network
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <button
+            class="v-btn v-btn--icon theme--light"
+            type="button"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+    <div
+      role="listitem"
+    >
+      <a
+        class="v-list__tile v-list__tile--link theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            Privacy Policy, T&C's
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <a
+            class="v-btn v-btn--icon v-btn--router theme--light"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+  </div>
+  <div
+    class="v-navigation-drawer__border"
+  />
+</aside>
+`;
+
+exports[`TheNavDrawer.vue renders empty by default 1`] = `
+<aside
+  class="v-navigation-drawer v-navigation-drawer--absolute v-navigation-drawer--close v-navigation-drawer--temporary theme--light"
+  style="height: 100%; margin-top: 0px; transform: translateX(-300px); width: 300px;"
+>
+  <div
+    class="layout"
+  >
+    <div
+      class="flex xs7 offset-xs1 pt-3 pb-3"
+    >
+      <div
+        class="v-responsive v-image"
+      >
+        <div
+          class="v-responsive__content"
+        />
+      </div>
+    </div>
+  </div>
+   
+  <hr
+    class="v-divider theme--light"
+  />
+   
+  <div
+    class="v-list v-list--two-line theme--light"
+    role="list"
+  >
+    <div
+      role="listitem"
+    >
+      <a
+        class="v-list__tile v-list__tile--link theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            FAQ's
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <a
+            class="v-btn v-btn--icon v-btn--router theme--light"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+    <div
+      role="listitem"
+    >
+      <a
+        class="v-list__tile v-list__tile--link theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            Contact Us
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <a
+            class="v-btn v-btn--icon v-btn--router theme--light"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+    <div
+      role="listitem"
+    >
+      <div
+        class="v-list__tile theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            Polar Plus Network
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <button
+            class="v-btn v-btn--icon theme--light"
+            type="button"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+    <div
+      role="listitem"
+    >
+      <a
+        class="v-list__tile v-list__tile--link theme--light"
+      >
+        <div
+          class="v-list__tile__avatar"
+        >
+          <div
+            class="v-avatar"
+            style="height: 40px; width: 40px;"
+          >
+            <div
+              class="v-responsive v-image icon"
+            >
+              <div
+                class="v-responsive__content"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__content"
+        >
+          <div
+            class="v-list__tile__title primary--text"
+          >
+            Privacy Policy, T&C's
+          </div>
+        </div>
+         
+        <div
+          class="v-list__tile__action"
+        >
+          <a
+            class="v-btn v-btn--icon v-btn--router theme--light"
+          >
+            <div
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon material-icons theme--light primary--text"
+              >
+                chevron_right
+              </i>
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+     
+    <hr
+      class="v-divider theme--light"
+    />
+  </div>
+  <div
+    class="v-navigation-drawer__border"
+  />
+</aside>
+`;
